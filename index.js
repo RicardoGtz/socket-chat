@@ -58,7 +58,7 @@ io.on('connection',(socket)=>{              //Socket wait for a new "connection"
     });
 
     socket.on('chat:typing',(data)=>{       //Socket listen for "chat:typing" event
-        console.log(data);
+        //console.log(data);
         //Sends the data to all the connecteds sockets except for the sender
         socket.broadcast.emit('chat:typing',data);
     });
