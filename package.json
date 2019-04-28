@@ -8,7 +8,7 @@
     "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ricardo Gtz. gtz.o.ricardo@gmail.com",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",

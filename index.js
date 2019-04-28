@@ -71,7 +71,7 @@ io.on('connection',(socket)=>{              //Socket wait for a new "connection"
 
     socket.on('disconnect', function() {    //Socket listen for "chat:typing" event
         console.log(users[socket.id]+' disconnected!');
-        //Socket listen for "chat:typing" event
+        //Socket listen for "chat:LogOut" event
         socket.broadcast.emit('chat:LogOut',{
                                                 "message": "abandono el chat",
                                                 "username":users[socket.id]

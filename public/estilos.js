@@ -1,18 +1,14 @@
+//Styles to manage colors of buttoons
 let btnEnviar=document.getElementById('send');
-
-btnEnviar.onmouseover= ()=>{
-    //this.className="btnClick";
+btnEnviar.onmouseover= ()=>{    
     btnEnviar.className="mouseOver";
 };
-btnEnviar.onmouseleave= ()=>{
-    //this.className="btnClick";
+btnEnviar.onmouseleave= ()=>{    
     btnEnviar.className="";
 };
-btnEnviar.onmousedown= ()=>{
-    //this.className="btnClick";
+btnEnviar.onmousedown= ()=>{    
     btnEnviar.className="btnClick";
 };
-btnEnviar.onmouseup= ()=>{
-    //this.className="btnClick";
+btnEnviar.onmouseup= ()=>{  
     btnEnviar.className="mouseOver";
 };
